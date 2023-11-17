@@ -1,16 +1,12 @@
-### Hi there 👋
-
-<!--
-**it-ethospwt/it-ethospwt** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+```python
+from github.profile import ReadMe
+class ethos ( ReadMe ) :
+    def __init__ ( self ) :
+        self.username  = "Digital Insight Ethos"
+        self.location  = "Purwokerto"
+        self.languages = [ "PHP", "HTML", "Javascript", "CSS", "Phyton" ]
+    def about ( self ) :
+        print( f"Hi, I'm {self.username}." )
+me = ilsyaa()
+me.about()
+```
