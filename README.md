@@ -7,6 +7,6 @@ class ethos ( ReadMe ) :
         self.languages = [ "PHP", "HTML", "Javascript", "CSS", "Phyton" ]
     def about ( self ) :
         print( f"Hi, I'm {self.username}." )
-me = ilsyaa()
+me = ethos()
 me.about()
 ```
