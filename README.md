@@ -2,7 +2,7 @@
 from github.profile import ReadMe
 class ethos ( ReadMe ) :
     def __init__ ( self ) :
-        self.username  = "Digital Insight Ethos"
+        self.username  = "Technical Development"
         self.location  = "Purwokerto"
         self.languages = [ "PHP", "HTML", "Javascript", "CSS", "Phyton" ]
     def about ( self ) :
